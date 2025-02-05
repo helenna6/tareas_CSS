@@ -1,0 +1,32 @@
+<div id="box-container">
+    <div id="box-1"></div>
+    <div id="box-2"></div>
+</div>
+
+<style>
+    #box-container {
+        width: 90%;
+        max-width: 800px;
+        height: 120px;
+        display: flex;
+        background: white;
+        border-radius: 10px;
+        padding: 5px;
+        margin: auto;
+        overflow: hidden;
+    }
+    #box-1 {
+        background-color: dodgerblue;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 70%;
+        height: 100%;
+    }
+    #box-2 {
+        background-color: orangered;
+        flex-grow: 1;
+        flex-shrink: 2;
+        flex-basis: 30%;
+        height: 100%;
+    }
+</style>
